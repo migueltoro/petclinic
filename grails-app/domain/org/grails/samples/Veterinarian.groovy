@@ -5,7 +5,7 @@ package org.grails.samples;
  *
  * @author Graeme Rocher
  */
-class Vet extends Person {
+class Veterinarian extends Person {
 
 	static hasMany = [specialities: Speciality]
 }

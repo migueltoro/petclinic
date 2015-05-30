@@ -7,6 +7,6 @@ class ClinicController {
 	def tutorial() {}
 
 	def vets() {
-		[vets: Vet.list()]
+		[vets: Veterinarian.list()]
 	}
 }

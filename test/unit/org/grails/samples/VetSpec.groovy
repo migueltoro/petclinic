@@ -3,13 +3,13 @@ package org.grails.samples
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
-@TestFor(Vet)
+@TestFor(Veterinarian)
 class VetSpec extends Specification implements DomainDataFactory {
 	
-	Vet vet = validVet()
+	Veterinarian vet = validVet()
 	
 	def setup() {
-		mockForConstraintsTests Vet
+		mockForConstraintsTests Veterinarian
 	}
 	
 	def 'a valid Vet has no errors'() {

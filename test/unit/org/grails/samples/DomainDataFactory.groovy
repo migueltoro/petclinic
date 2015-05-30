@@ -25,8 +25,8 @@ trait DomainDataFactory {
 		new Speciality(name: 'dentistry')
 	}
 	
-	Vet validVet() {
-		new Vet(firstName: 'Lisa', lastName: 'GoodOne')
+	Veterinarian validVet() {
+		new Veterinarian(firstName: 'Lisa', lastName: 'GoodOne')
 	}
 	
 	Visit validVisit() {
